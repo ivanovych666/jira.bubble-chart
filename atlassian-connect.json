@@ -1,0 +1,33 @@
+{
+    "name": "Bubble Chart Gadget App",
+    "description": "Installation URL: https://ivanovych666.com/jira.bubble-chart/atlassian-connect.json",
+    "key": "com.ivanovych666.jira.bubble-chart",
+    "baseUrl": "https://ivanovych666.com/jira.bubble-chart/",
+    "vendor": {
+        "name": "ivanovych666",
+        "url": "https://ivanovych666.com"
+    },
+    "authentication": {
+        "type": "none"
+    },
+    "scopes": [
+        "READ",
+        "ACT_AS_USER"
+    ],
+    "apiVersion": 1,
+    "modules": {
+        "jiraDashboardItems": [
+            {
+                "description": {
+                    "value": "Gadget description..."
+                },
+                "url": "/gadget/main.html",
+                "thumbnailUrl": "/gadget/icon.png",
+                "name": {
+                    "value": "Bubble Chart Gadget"
+                },
+                "key": "gadget"
+            }
+        ]
+    }
+}
